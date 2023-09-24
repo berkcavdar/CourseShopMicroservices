@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C29E8E48-F2FE-43A1-ABC4-0C68AE01F3B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{A05F0103-40C9-4EB1-99F7-0CE5C6C6A317}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A05F0103-40C9-4EB1-99F7-0CE5C6C6A317} = {C29E8E48-F2FE-43A1-ABC4-0C68AE01F3B7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75798616-69DC-4977-AF59-5A92FC7ED939}
+	EndGlobalSection
+EndGlobal

@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{A05F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.Sevices.Catalog.API", "Services\Catalog\Course.Sevices.Catalog.API\Course.Sevices.Catalog.API.csproj", "{7A08B82C-8F62-460C-A1B2-0F0875E7F3F0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C86C135F-17F2-4E5E-BA4E-F49CAB7B9BC7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PortList", "PortList", "{C86C135F-17F2-4E5E-BA4E-F49CAB7B9BC7}"
 	ProjectSection(SolutionItems) = preProject
 		Ports.txt = Ports.txt
 	EndProjectSection
@@ -21,6 +21,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{CE71C81A-02ED-4B5C-81B6-8D8BE3A64C94}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.IdentityServer", "IdentityServer\Course.IdentityServer\Course.IdentityServer.csproj", "{A9194009-5A4A-42EF-869A-C658F531D129}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{A9884FE8-3E48-4872-8AC3-5ECBA18BA905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Services.PhotoStock.API", "Services\PhotoStock\Course.Services.PhotoStock.API\Course.Services.PhotoStock.API.csproj", "{57FB7D82-DF75-4DC5-B76A-B44911F361B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +44,10 @@ Global
 		{A9194009-5A4A-42EF-869A-C658F531D129}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9194009-5A4A-42EF-869A-C658F531D129}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9194009-5A4A-42EF-869A-C658F531D129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57FB7D82-DF75-4DC5-B76A-B44911F361B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FB7D82-DF75-4DC5-B76A-B44911F361B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FB7D82-DF75-4DC5-B76A-B44911F361B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FB7D82-DF75-4DC5-B76A-B44911F361B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +57,8 @@ Global
 		{7A08B82C-8F62-460C-A1B2-0F0875E7F3F0} = {A05F0103-40C9-4EB1-99F7-0CE5C6C6A317}
 		{182323CD-9A63-4172-85FB-67AD41A01701} = {2BAABB77-BC1D-439A-96BD-E29D23AC0C9E}
 		{A9194009-5A4A-42EF-869A-C658F531D129} = {CE71C81A-02ED-4B5C-81B6-8D8BE3A64C94}
+		{A9884FE8-3E48-4872-8AC3-5ECBA18BA905} = {C29E8E48-F2FE-43A1-ABC4-0C68AE01F3B7}
+		{57FB7D82-DF75-4DC5-B76A-B44911F361B1} = {A9884FE8-3E48-4872-8AC3-5ECBA18BA905}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75798616-69DC-4977-AF59-5A92FC7ED939}

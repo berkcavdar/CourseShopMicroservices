@@ -24,7 +24,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.IdentityServer", "Id
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{A9884FE8-3E48-4872-8AC3-5ECBA18BA905}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Services.PhotoStock.API", "Services\PhotoStock\Course.Services.PhotoStock.API\Course.Services.PhotoStock.API.csproj", "{57FB7D82-DF75-4DC5-B76A-B44911F361B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.Services.PhotoStock.API", "Services\PhotoStock\Course.Services.PhotoStock.API\Course.Services.PhotoStock.API.csproj", "{57FB7D82-DF75-4DC5-B76A-B44911F361B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{97E3FAB3-CE8F-439C-8F29-79F4DE1B96F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Services.Basket.API", "Services\Basket\Course.Services.Basket.API\Course.Services.Basket.API.csproj", "{F89FA3DF-F8DE-420A-96F1-81FAD84526B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +52,10 @@ Global
 		{57FB7D82-DF75-4DC5-B76A-B44911F361B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57FB7D82-DF75-4DC5-B76A-B44911F361B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57FB7D82-DF75-4DC5-B76A-B44911F361B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F89FA3DF-F8DE-420A-96F1-81FAD84526B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89FA3DF-F8DE-420A-96F1-81FAD84526B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89FA3DF-F8DE-420A-96F1-81FAD84526B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89FA3DF-F8DE-420A-96F1-81FAD84526B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,8 @@ Global
 		{A9194009-5A4A-42EF-869A-C658F531D129} = {CE71C81A-02ED-4B5C-81B6-8D8BE3A64C94}
 		{A9884FE8-3E48-4872-8AC3-5ECBA18BA905} = {C29E8E48-F2FE-43A1-ABC4-0C68AE01F3B7}
 		{57FB7D82-DF75-4DC5-B76A-B44911F361B1} = {A9884FE8-3E48-4872-8AC3-5ECBA18BA905}
+		{97E3FAB3-CE8F-439C-8F29-79F4DE1B96F4} = {C29E8E48-F2FE-43A1-ABC4-0C68AE01F3B7}
+		{F89FA3DF-F8DE-420A-96F1-81FAD84526B2} = {97E3FAB3-CE8F-439C-8F29-79F4DE1B96F4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75798616-69DC-4977-AF59-5A92FC7ED939}

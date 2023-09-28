@@ -25,6 +25,10 @@ namespace Course.IdentityServer
             {
                 Scopes = {"basket_fullpermission"}
             },
+            new ApiResource("resource_discount")
+            {
+                Scopes = { "discount_fullpermission" }
+            },
             new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
         };
 
@@ -44,6 +48,7 @@ namespace Course.IdentityServer
                 new ApiScope("catalog_fullpermission","CatalogAPI Tam Erişim"),
                 new ApiScope("photo_stock_fullpermission","PhotoStockAPI Tam Erişim"),
                 new ApiScope("basket_fullpermission","BasketAPI Tam Erişim"),
+                new ApiScope("discount_fullpermission","DiscountAPI Tam Erişim"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
 
@@ -81,11 +86,12 @@ namespace Course.IdentityServer
                     AllowedScopes =
                     {
                         "basket_fullpermission",
+                        "discount_fullpermission",
                         IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.LocalApi.ScopeName,
                         IdentityServerConstants.StandardScopes.Email,
                         IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.OfflineAccess,
+                        IdentityServerConstants.LocalApi.ScopeName,
                         "roles"
                     },
                     AccessTokenLifetime = 1 * 60 * 60,

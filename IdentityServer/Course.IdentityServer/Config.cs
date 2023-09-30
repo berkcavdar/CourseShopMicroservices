@@ -33,6 +33,10 @@ namespace Course.IdentityServer
             {
                 Scopes = {"order_fullpermission"}
             },
+            new ApiResource("resource_payment")
+            {
+                Scopes = {"payment_fullpermission"}
+            },
             new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
         };
 
@@ -54,6 +58,7 @@ namespace Course.IdentityServer
                 new ApiScope("basket_fullpermission","BasketAPI Tam Erişim"),
                 new ApiScope("discount_fullpermission","DiscountAPI Tam Erişim"),
                 new ApiScope("order_fullpermission","OrderAPI Tam Erişim"),
+                new ApiScope("payment_fullpermission","PaymentAPI Tam Erişim"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
 
@@ -90,6 +95,7 @@ namespace Course.IdentityServer
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                     AllowedScopes =
                     {
+                        "payment_fullpermission",
                         "basket_fullpermission",
                         "discount_fullpermission",
                         "order_fullpermission",
